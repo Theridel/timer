@@ -22,7 +22,7 @@ jobs:
 
     steps:
       - name: Checkout del codice
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Configurazione Node.js
         uses: actions/setup-node@v6
@@ -57,7 +57,7 @@ jobs:
 
     steps:
       - name: Checkout del codice
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
 
       - name: Configurazione Node.js (Fissa sulla nostra produzione)
         uses: actions/setup-node@v6
